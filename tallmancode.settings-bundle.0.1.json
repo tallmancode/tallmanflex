@@ -11,16 +11,6 @@
           "config/": "%CONFIG_DIR%"
         }
       },
-      "files": {
-        "config/packages/tmc_settings.yaml": {
-          "contents": [
-            "acme_private:",
-            "    encode: true",
-            ""
-          ],
-          "executable": false
-        }
-      },
       "ref": "6feb5493cfbf988db158d951d4d57f86bab6906b"
     }
   }
