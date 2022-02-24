@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "tallmancode/settings-bundle": [
+      "0.0.5-beta"
+    ]
+  },
+  "branch": "master",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/tallmancode/tallmanflex",
+    "origin_template": "{package}:{version}@github.com/tallmancode/tallmanflex:master",
+    "recipe_template": "https://api.github.com/repos/tallmancode/tallmanflex/contents/{package_dotted}.{version}.json"
+  }
+}
