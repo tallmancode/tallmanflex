@@ -1,0 +1,34 @@
+{
+  "manifests": {
+    "tallmancode/settings-bundle": {
+      "manifest": {
+        "bundles": {
+          "TallmanCode\\SettingsBundle\\TmcSettingsBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * You're ready to use the Tallmancode SettingsBundle.",
+          "",
+          "  * create your settings table by running doctrine:make:migration.",
+          "",
+          "  * <fg=blue>Read</> the documentation at <comment>https://tallmancode.co.za/docs/settings-bundle</>"
+        ]
+      },
+      "files": {
+        "config/packages/tmc_settings.yaml": {
+          "contents": [
+            "tmc_settings:",
+            "   resources:",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "6feb5493cfbf988db158d951d4d57f86bab6906b"
+    }
+  }
+}
